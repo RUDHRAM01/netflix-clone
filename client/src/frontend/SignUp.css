@@ -1,0 +1,79 @@
+.parent_signUp{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.navigation_signUP{
+    display: flex;
+}
+
+.SignUPIn{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.main_SignUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100rem;
+    height: 30rem;
+    position: relative;  
+}
+
+.main_child{
+    padding: 1rem 1rem;
+    max-width: 25rem;
+}
+
+.my_pass{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 2rem;
+}
+
+.my_sign_up{
+    margin-top: 1rem;
+    color:  white;
+    background-color: red;
+    border: 2px solid red;
+    cursor: pointer;
+    width: 25.5rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.my_h2{
+    color: black;
+}
+
+.my_h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.hide_Input{
+    visibility: hidden;
+    width: 0rem;
+}
+
+@media screen and (max-width: 400px){
+    .main_SignUp{
+        max-width: 30rem;
+        height: 30rem;
+    }
+    .main_child{
+        max-width: 15rem;
+    }
+    .my_sign_up{
+        width: 15.5rem;
+    }
+    .my_pass{
+        width: 15rem;
+    }
+}
